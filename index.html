@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aerizen Asset Management</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      setTimeout(function () {
+        var root = document.getElementById("root");
+        if (root && !root.children.length) {
+          root.innerHTML = '<div style="min-height:100vh;background:#f8fafc;padding:40px;font-family:Segoe UI,Arial,sans-serif;color:#0f172a"><div style="max-width:900px;margin:auto;background:white;border:1px solid #e2e8f0;border-radius:24px;padding:28px;box-shadow:0 16px 60px rgba(15,23,42,.08)"><h1 style="margin-top:0">Aerizen belum memuat UI</h1><p style="color:#64748b;line-height:1.7">File HTML berhasil dibuka, tetapi JavaScript aplikasi belum berjalan. Ini biasanya karena file build lama masih dipakai atau ada error runtime. Tekan Ctrl+R sekali. Jika tetap muncul, install ulang dari build versi 1.0.2.</p></div></div>';
+        }
+      }, 2500);
+    </script>
+  </body>
+</html>
